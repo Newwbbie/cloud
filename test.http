@@ -1,0 +1,21 @@
+### 新增
+POST http://localhost:8001/payment/add
+Content-Type: application/json
+
+{
+  "serial": "qwer"
+}
+
+### 查询
+GET http://localhost:8001/payment/get/1
+
+###
+GET localhost/consumer/payment/get/1
+
+###
+POST localhost/consumer/payment/add
+Content-Type: application/json
+
+{
+  "serial": "qwer"
+}
